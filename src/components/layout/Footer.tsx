@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, Hash, Globe, Heart } from 'lucide-react';
+import { Camera, Hash, Globe } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
