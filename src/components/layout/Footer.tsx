@@ -57,9 +57,31 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p>© {new Date().getFullYear()} Panu's Momos & Chaap. All rights reserved.</p>
-          <p className="flex items-center gap-1 text-sm">
-            Made with <Heart size={14} className="text-primary fill-primary" /> for Street Food Lovers
-          </p>
+          <a 
+            href="https://www.instagram.com/prathmesh.py?igsh=MWJrM2psY3hqNXBwbQ==" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="group flex items-center h-6 overflow-hidden relative text-sm hover:text-primary transition-colors cursor-pointer"
+          >
+            <span className="group-hover:-translate-y-full transition-transform duration-300 block">Made By Prathmesh</span>
+            <span className="absolute top-full group-hover:-translate-y-full transition-transform duration-300 block w-full text-center flex justify-center">
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="18" 
+                height="18" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+              </svg>
+            </span>
+          </a>
         </div>
       </div>
     </footer>
